@@ -1,4 +1,3 @@
-#import file_operation
 from menu import menu_root,menu_view,view_param_dialog,menu_after_view,new_note_dialog,menu_after_new_note,menu_for_repit_add,menu_edit_del,inp_key_for_edi_del
 from gtf_func_16 import view_on_disp, add_book,view_for_edi_del,edit_katal, del_katal
 
@@ -6,8 +5,6 @@ if __name__ == "__main__":
 
       print(60 * "_")
       print("Добро пожаловать в Каталог книг!")
-
-      #print(file_operation.file_matrix())
 
       while True:
 
